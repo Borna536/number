@@ -1,32 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en-US">
     <head>
-        <meta charset = 'utf-8'/>
-        <meta
-            name="description"
-            content = 'this website is a number gussing game'/>
-        <meta
-            name = 'authour'
-            content = 'ben binder the best coder ever'/>
-        <title>my test website 2</title>
-        <link rel="stylesheet" href = 'styles.css'/>
-        <script src='script.js'></script>
+        <meta charset="utf-8">
+        <meta 
+            name = "description"
+            content = "this website is a number guessing game" />
+        <meta 
+            name = "author" 
+            content = "ben binder the best coder ever" />
+        <title>number guessing game</title>
+        <link rel="stylesheet" href="style.css"/>
     </head>
     <body>
-        <hl>Number gussing game</hl>
-        <p> we have selected a random number between 1 and 100.see if you can
-             guess it in 10 turns or fewer.well tel you if your guess was too high or too low 
-             </p>
-             <div class ='form'>
-                <label for = 'guessfield'>enter guess</label>
-                <inpute type = 'number' min = '1' max = 100 reguird id = 'guessfield' class = 'guessfield'>
-                <inpute type = 'submite' value = 'submit guess' class = 'guessfield' class = 'guessfield'>
-                
-             </div>
-             <div class = 'resultparas'>
-                <p class = 'guesses'></p>
-                <p class = 'lastresult'></p>
-                <p class = 'loworhi'></p>
-             </div>
+        <h1>Number Guesssing Game</h1>
+        <p>
+            we have selected a random number between 1 and 100. see if you can guess it in 10 turns or 
+            fewer. well tel you if your guess was too high or too low
+        </p>
+        <div class = "form">
+            <label for="guessField">Enter a guess:</label>
+            <input type = "number" min = "1" max = "100" required id="guessField" class="guessField">
+            <input type = "submit" value = "Submit guess" class="guessSubmit">
+        </div>
+        <div class = "resultParas">
+            <p class = "guesses"></p>
+            <p class = "lastResult"></p>
+            <p class = "lowOrHi"></p>
+        </div>
+        <script src="script.js"></script>
     </body>
 </html>
